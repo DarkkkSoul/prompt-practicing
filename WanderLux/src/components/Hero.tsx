@@ -3,8 +3,8 @@ import { Search, MapPin, Star, Award, Users } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-10 pb-10">
+
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-purple-800/80 to-pink-900/90 z-10"></div>
         <img
@@ -14,7 +14,6 @@ const Hero = () => {
         />
       </div>
 
-      {/* Content */}
       <div className="relative z-20 w-full px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-5xl mx-auto">
           {/* Main Heading */}
@@ -81,10 +80,10 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-purple-500/20 rounded-full blur-xl animate-float"></div>
       <div className="absolute bottom-20 right-10 w-32 h-32 bg-pink-500/20 rounded-full blur-xl animate-float" style={{ animationDelay: '1s' }}></div>
       <div className="absolute top-1/2 left-20 w-16 h-16 bg-purple-400/30 rounded-full blur-lg animate-float" style={{ animationDelay: '2s' }}></div>
+
     </section>
   );
 };

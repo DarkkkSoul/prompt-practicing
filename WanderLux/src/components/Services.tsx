@@ -77,7 +77,7 @@ const Services = () => {
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Premium Travel 
+            Premium Travel
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> Services</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -94,11 +94,11 @@ const Services = () => {
               <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white mb-4 group-hover:scale-110 transition-transform duration-300">
                 {service.icon}
               </div>
-              
+
               <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
                 {service.title}
               </h3>
-              
+
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
                 {service.description}
               </p>
@@ -121,7 +121,7 @@ const Services = () => {
             <h3 className="text-3xl font-bold text-white mb-4">Why Choose WanderLux?</h3>
             <p className="text-purple-100 text-lg">Trusted by thousands of travelers worldwide</p>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">

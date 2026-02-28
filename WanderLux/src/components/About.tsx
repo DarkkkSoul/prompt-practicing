@@ -60,7 +60,7 @@ const About = () => {
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            About 
+            About
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> WanderLux</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -75,15 +75,15 @@ const About = () => {
               Crafting Dreams Into Reality
             </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Founded in 2014 by travel enthusiast Alexandra Sterling, WanderLux was born from a simple belief: 
-              that travel should be transformative, not just transactional. After years of experiencing 
-              cookie-cutter travel packages, Alexandra envisioned a company that would craft personalized 
+              Founded in 2014 by travel enthusiast Alexandra Sterling, WanderLux was born from a simple belief:
+              that travel should be transformative, not just transactional. After years of experiencing
+              cookie-cutter travel packages, Alexandra envisioned a company that would craft personalized
               journeys as unique as the travelers themselves.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Today, WanderLux stands as a premier luxury travel company, having curated over 75,000 
-              extraordinary journeys across 180+ countries. We don't just plan trips; we create 
-              life-changing experiences that connect you with the world's most incredible destinations, 
+              Today, WanderLux stands as a premier luxury travel company, having curated over 75,000
+              extraordinary journeys across 180+ countries. We don't just plan trips; we create
+              life-changing experiences that connect you with the world's most incredible destinations,
               cultures, and moments.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -198,7 +198,7 @@ const About = () => {
             <h3 className="text-3xl font-bold mb-4">WanderLux by the Numbers</h3>
             <p className="text-purple-100 text-lg">A decade of creating extraordinary travel experiences</p>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">180+</div>
@@ -225,9 +225,9 @@ const About = () => {
             <Compass className="w-12 h-12 text-purple-600 mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              "To inspire and enable transformative travel experiences that connect people with the world's 
-              most extraordinary destinations, cultures, and moments. We believe that travel has the power 
-              to broaden perspectives, create lasting memories, and foster a deeper understanding of our 
+              "To inspire and enable transformative travel experiences that connect people with the world's
+              most extraordinary destinations, cultures, and moments. We believe that travel has the power
+              to broaden perspectives, create lasting memories, and foster a deeper understanding of our
               beautiful, diverse planet."
             </p>
           </div>
