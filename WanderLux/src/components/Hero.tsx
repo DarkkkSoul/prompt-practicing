@@ -3,7 +3,7 @@ import { Search, MapPin, Star, Award, Users } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-10 pb-10">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-25 pb-25">
 
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-purple-800/80 to-pink-900/90 z-10"></div>
